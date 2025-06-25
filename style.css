@@ -70,3 +70,26 @@ body {
     font-size: 1em;    
     cursor: pointer;
 }
+
+@media screen and (max-width: 640px) {
+    #password-generator {
+        width: 80%;
+        height: auto;
+    }
+
+    #result {
+        font-size: 1.5em;
+    }
+
+    #generate {
+        width: 100%;
+    }
+    
+    #options {
+        grid-template-columns: 1fr;
+    }
+    
+    #options label {
+        text-align: center;
+    }
+}
